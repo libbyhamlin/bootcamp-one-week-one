@@ -1,5 +1,5 @@
-export const isCorrect = (someString) => {
+export const isCorrect = someString => {
     if (someString === 'yes') {
         return true;
     }
-}
+};
