@@ -4,13 +4,9 @@
 
 **Bold**
 
-_Italics_ 
+_Italics_
 
-- About 
+- About
 - List
-- Of 
-    - subset
-    - of
-    - sub
-    - things
--Things
+- Of - subset - of - sub - things
+  -Things
