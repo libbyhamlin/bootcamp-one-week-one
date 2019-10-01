@@ -1,1 +1,0 @@
-# bootcamp-one-week-one
