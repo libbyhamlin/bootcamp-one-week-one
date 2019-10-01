@@ -15,38 +15,38 @@ myButton.onclick = () => {
     const myConfirmation = confirm('do you want to take my quiz?');
     console.log(myConfirmation);
 
-    const userAnswer = prompt('is my favorite color bluish? (yes/no)');
+    const userAnswer = prompt('is my hair color green? (yes/no)');
     const lowercaseUserAnswer = userAnswer.toLowerCase();
     const trimmedLowercaseUserAnswer = lowercaseUserAnswer.trim();
 
     const userIsCorrect = isCorrect(trimmedLowercaseUserAnswer);
 
     if (userIsCorrect) {
-        alert('yeys!');
+        alert('Correct!');
     } else {
         alert('booo');
     }
 
-    const userAnswertwo = prompt('is my favorite teddy bear pink? (yes/no)');
+    const userAnswertwo = prompt('Is my mini album called Free Trial? (yes/no)');
     const lowercaseUserAnswerTwo = userAnswertwo.toLowerCase();
     const trimmedLowercaseUserAnswertwo = lowercaseUserAnswerTwo.trim();
 
     const userIsCorrectTwo = isCorrect(trimmedLowercaseUserAnswertwo);
 
     if (userIsCorrectTwo) {
-        alert('yeys!');
+        alert('Correct!');
     } else {
         alert('booo');
     }
 
-    const userAnswerThree = prompt('Do I wear glasses? (yes/no)');
+    const userAnswerThree = prompt('Is my favorite color orange? (yes/no)');
     const lowercaseUserAnswerThree = userAnswerThree.toLowerCase();
     const trimmedLowercaseUserAnswerThree = lowercaseUserAnswerThree.trim();
 
     const userIsCorrectThree = isCorrect(trimmedLowercaseUserAnswerThree);
 
     if (userIsCorrectThree) {
-        alert('yeys!');
+        alert('Correct!');
     } else {
         alert('booo');
     }
